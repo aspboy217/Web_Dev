@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="height:100%">
   <head>
     <meta charset="utf-8">
     <meta name="author" content="Young Sung Lyun">
@@ -15,36 +15,63 @@
     <script src="./JS/index.js"></script>
     <link rel="stylesheet" href="./CSS/index.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
-
   </head>
 
-  <!-- scrollspy -->
-  <!-- svg -->
-
-  <body style="  background: #222; color: #aaa">
+  <body style="background: #222; color: #aaa; height:100%; display:flex; flex-direction:column">
     <!-- Header -->
-    <div class="p-5 bg-dark text-white text-center">
-      <h1>Welcome!</h1>
-    </div>
+    <h2 class="p-1 bg-dark text-center">
+      <a class="text-white" href="/" style="text-decoration:none; font-family:'Courier New', Courier, monospace">
+        YSL
+      </a>
+    </h2>
+    
+    <div class="container w-50" style="height:100%; position:relative">
+      <div style="width: 100%; position:absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%)">
+        <h1 style="color:white; display:inline; padding-left:20%">I am
+          <h1 class="txt-rotate" data-period="1000" style="color:white; display:inline"
+            data-rotate='[
+            "an Engineer.",
+            "a Space Lover.",
+            "Young Sung.",
+            "Kyle."]'
+          ></h1>
+        </h1>
 
-    <div class="container w-50">
-      <h1 style="color:white">Hello!</h1>
-      <h1 style="color:white; display:inline">I
-        <h1 class="txt-rotate" data-period="1000" style="color:white; display:inline"
-          data-rotate='[
-          " like coding.",
-          " like baseball.",
-          "My name is Kyle.",
-          "pretty.",
-          "fun!" ]'
-        ></h1>
-    </h1>
+        <div class="container w-100" style="padding-top:50px">
+          <div class="row">
+            <div class="col-md text-center">
+              <h3><a class="text-muted" href="./pages/aboutMe.html" style="font-family:'Courier New', Courier, monospace">About Me</a></h3>
+            </div>
+            <div class="col-md text-center">
+              <h3><a class="text-muted" href="./pages/projects.html" style="font-family:'Courier New', Courier, monospace">Projects</a></h3>
+            </div>
+            <div class="col-md text-center">
+              <h3><a class="text-muted" href="./pages/myStory.html" style="font-family:'Courier New', Courier, monospace">More...</a></h3>
+            </div>
+          </div>
+        </div>
+        
+      </div>
     </div>
-
-    <!-- Footer -->
-    <div class="mt-5 p-4 bg-dark text-white text-center">
-      <p class="lead text-center">If you want to connect, feel free to email me at <a class="lead" href="mailto:young.sung.lyun@gmail.com">young.sung.lyun@gmail.com</a></p>
-    </div>
-    <!--  -->
   </body>
+
+  <footer class="bg-dark text-center text-white">
+    <div class="container p-4 pb-0">
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/KyleLyun" role="button">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/ys-lyun/" role="button">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <!-- Github -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/aspboy217/" role="button">
+          <i class="fab fa-github"></i>
+        </a>
+      </section>
+    </div>
+    <p class="bg-dark text-white lead text-center">If you want to connect, feel free to email me at <a class="lead text-white" href="mailto:young.sung.lyun@gmail.com">young.sung.lyun@gmail.com</a></p>
+  </footer>
 </html>

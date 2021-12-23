@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" style="height:100%">
   <head>
     <meta charset="utf-8">
     <meta name="author" content="Young Sung Lyun">
@@ -13,14 +13,27 @@
     <link rel="stylesheet" href="../CSS/aboutMe.css">
   </head>
 
-  <body>
-    <div class="container w-50">
-      <!-- About Me Section -->
-      <h2 class="text-center  mt-4">About Me</h2>
+  <body style="background: #222; color: #aaa; height:100%; display:flex; flex-direction:column">
+    <h2 class="p-1 bg-dark text-center">
+      <a class="text-white" href="/" style="text-decoration:none; font-family:'Courier New', Courier, monospace">
+        YSL
+      </a>
+    </h2>
+    
+    <div class="container w-50" style="height:100%; position:relative">
+      <h2 class="p-5 text-center" style="font-family:'Courier New', Courier, monospace">About Me</h2>
       <h5>Photo of me:</h5>
       <div class="fakeimg">Fake Image</div>
-      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-      
+      <p>One day, I happened to open my eyes on Earth, with a name "YSL". 
+        Yes, it's the same name as your wifey's fancy-expensive handbag.
+        As happened to obtain this name, I've decided to live a fancy life
+        as much as I can. Therefore, I am studying Electrical Engineering, but designing
+        this website for fun. 
+      </p>
+
+      <h3 class="p-5 text-center" style="font-family:'Courier New', Courier, monospace">Here's What I've Been Doing to Live Fancy Life</h3>
+      <!-- add a list of experience -->
+
       <div class="row link-list">
         <div class="col-sm text-center">
             <a class="link-item" href="../Files/LYUN_SW_1214.pdf">
@@ -59,7 +72,32 @@
               </div>
             </a>
         </div>
+  
       </div>
     </div>
   </body>
+
+
+  
+  <footer class="bg-dark text-center text-white">
+    <div class="container p-4 pb-0">
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/KyleLyun" role="button">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/ys-lyun/" role="button">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <!-- Github -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/aspboy217/" role="button">
+          <i class="fab fa-github"></i>
+        </a>
+      </section>
+    </div>
+    <p class="bg-dark text-white lead text-center">If you want to connect, feel free to email me at <a class="lead text-white" href="mailto:young.sung.lyun@gmail.com">young.sung.lyun@gmail.com</a></p>
+  </footer>
+  
+  
 </html>
