@@ -22,19 +22,209 @@
     
     <div class="container w-50" style="height:100%; position:relative">
       <h2 class="p-5 text-center" style="font-family:'Courier New', Courier, monospace">Projects</h2>
-      <p>Lorem ipsum dolor sit ame.</p>
-      <ul class="nav nav-pills flex-column">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Active</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-      </ul>
+      <h5 class="text-center">Thank you for your interest!<br>Click each project for details.</h5>
+
+      <div class="list-group mt-3">
+        <button type="button" class="list-group-item list-group-item-dark text-black" style="font-size: 20px;" data-bs-toggle="modal" data-bs-target="#website">
+          Personal Website
+        </button>
+        <button type="button" class="list-group-item list-group-item-dark text-black" style="font-size: 20px;" data-bs-toggle="modal" data-bs-target="#DRV8305">
+          DRV8305 BLDC Controller
+        </button>
+        <button type="button" class="list-group-item list-group-item-dark text-black" style="font-size: 20px;" data-bs-toggle="modal" data-bs-target="#CalPoly">
+          CalPoly Pomona Multistage Rocket
+        </button>
+        <button type="button" class="list-group-item list-group-item-dark text-black" style="font-size: 20px;" data-bs-toggle="modal" data-bs-target="#ATE">
+          Automated Test Equipment
+        </button>
+        <button type="button" class="list-group-item list-group-item-dark text-black" style="font-size: 20px;" data-bs-toggle="modal" data-bs-target="#CPUSim">
+          CPU Simulator
+        </button>
+        <button type="button" class="list-group-item list-group-item-dark text-black" style="font-size: 20px;" data-bs-toggle="modal" data-bs-target="#BruinCal">
+          Bruin Calendar
+        </button>
+        <button type="button" class="list-group-item list-group-item-dark text-black" style="font-size: 20px;" data-bs-toggle="modal" data-bs-target="#IR2184">
+          IR2184 BLDC Controller
+        </button>
+      </div>
     </div>
+
+    <!-- website Modal -->
+    <div class="modal fade" id="website" tabindex="-1" aria-labelledby="websiteLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content text-black">
+          <div class="modal-header">
+            <h5 class="modal-title" id="websiteLabel">Personal Website - This one!</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <h5>Winter Break 2021</h5>
+            <p>
+              This website you are looking right now is my personal project in web development!<br>
+              During the development, I am aiming to review <strong>HTML, CSS, and JavaScript along with Bootstrap5</strong><br>
+              The project would never end. I'll be working to make this website more dynamic and neat whenever available.<br>
+              Please email me if you want to help me develop my website!<br>
+              Also, any comments would be welcomed!!
+            </p>
+          </div>
+          <div class="modal-footer">
+            <div type="button" class="btn btn-secondary d-grid col-4 mx-auto" data-bs-dismiss="modal">Want More!</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- DRV8305 Modal -->
+    <div class="modal fade" id="DRV8305" tabindex="-1" aria-labelledby="DRV8305Label" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content text-black">
+          <div class="modal-header">
+            <h5 class="modal-title" id="DRV8305Label">DRV8305 Brushless DC Motor Controller</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <h5>Fall 2021 - Present</h5>
+            <p>
+              <img src="https://www.bruinracing.com/images/logo/racing_nav_bar_logo.png" style="max-width: 100%;">
+              We are developing Brushless DC motor controller with <a href="https://www.ti.com/product/DRV8305">DRV8305</a> IC!
+              The project is aiming for the <a href="https://www.makethefuture.shell/en-gb/shell-eco-marathon/2022-programme">2022 Shell Eco-Marathon</a>!<br> 
+              This will be our <strong>first transitioned Brushless DC motor controller</strong> from Brushed DC motor from previous models. <br>
+              We are currently testing Rev1 board with Rev2 Software, written by me. <br>
+              You can find current running software for Arduino Nano from my <a href="https://github.com/aspboy217/SMV_DRV8305">Github.</a> <br>
+              Here are the PCB and Schematic for Rev2 board, designed by Achyuta Yadunandan (EV Powertrain Lead) and reviewed by me!<br>
+              <a href="../Files/PCB Rev2.pdf">PCB</a>, <a href="../Files/Schem Rev2.pdf">Schematic</a>
+              <h5>Please wish a best luck for us!</h5>
+            </p>
+          </div>
+          <div class="modal-footer">
+            <div type="button" class="btn btn-secondary d-grid col-4 mx-auto" data-bs-dismiss="modal">Want More!</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CalPoly Modal -->
+    <div class="modal fade" id="CalPoly" tabindex="-1" aria-labelledby="CalPolyLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content text-black">
+          <div class="modal-header">
+            <h5 class="modal-title" id="CalPolyLabel">CPP Multistage Rocket</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <h5>Fall 2021 - Present</h5>
+            <p>
+              <img src="../Files/Multistage logo.jpg" style="max-width: 100%;">
+              I am helping my friend, who is the Project Lead for CalPoly Pomona Multistage Rocket Club!<br>
+              We are aiming to reach <strong>50,000 feet with 2 solid rock motors firing in series.</strong><br>
+              I am responsible for testing & designing circuits for Avionics & Recovery team with wireless communication and sensor controls.
+              Here is the current schematic, which I've been developing: <a href="../Files/CPP-Schematic.pdf">click Me!</a><br>
+              <h5>Pics and videos of the rocket coming up soon!</h5>
+              <h5>Aiming to launch the rocket in Spring 2022!</h5>
+            </p>
+          </div>
+          <div class="modal-footer">
+            <div type="button" class="btn btn-secondary d-grid col-4 mx-auto" data-bs-dismiss="modal">Want More!</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ATE Modal -->
+    <div class="modal fade" id="ATE" tabindex="-1" aria-labelledby="ATELabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content text-black">
+          <div class="modal-header">
+            <h5 class="modal-title" id="ATELabel">Automated Test Equipment - Card Level Tester</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <h5>Summer 2021 - Present</h5>
+            <p>
+              Details
+            </p>
+          </div>
+          <div class="modal-footer">
+            <div type="button" class="btn btn-secondary d-grid col-4 mx-auto" data-bs-dismiss="modal">Want More!</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- CPUSim Modal -->
+    <div class="modal fade" id="CPUSim" tabindex="-1" aria-labelledby="CPUSimLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content text-black">
+          <div class="modal-header">
+            <h5 class="modal-title" id="CPUSimLabel">CPU Simulator</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <h5>Fall 2021</h5>
+            <p>
+              Details
+            </p>
+          </div>
+          <div class="modal-footer">
+            <div type="button" class="btn btn-secondary d-grid col-4 mx-auto" data-bs-dismiss="modal">Want More!</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- BruinCal Modal -->
+    <div class="modal fade" id="BruinCal" tabindex="-1" aria-labelledby="BruinCalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content text-black">
+          <div class="modal-header">
+            <h5 class="modal-title" id="BruinCalLabel">Bruin Calendar</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <h5>Spring 2021</h5>
+            <p>
+              For a class project, we developed an React-base application.<br>
+              I'd worked on both front-end and back-end with two different versions of website.<br>
+              We've adapted <strong>Google Firebase as our database with implementing an authorization page for users
+              to create and modify their account information. </strong>
+              You can find both codes from my teammates' Github: <a href="https://github.com/Daniel-Ferguson1/CS35L-BruinCalendar">Version 1</a>, <a href="https://github.com/lukeschoolmode/ucal_schprj/tree/to_group">Version 2.</a>
+              The following video is a description for Version1 of the application.
+            </p>
+            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6818873180761972736" height="500px" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+          </div>
+          <div class="modal-footer">
+            <div type="button" class="btn btn-secondary d-grid col-4 mx-auto" data-bs-dismiss="modal">Want More!</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- IR2184 Modal -->
+    <div class="modal fade" id="IR2184" tabindex="-1" aria-labelledby="IR2184Label" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content text-black">
+          <div class="modal-header">
+            <h5 class="modal-title" id="IR2184Label">IR2184 Brushless DC Motor Controller</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <h5>Fall 2020</h5>
+            <p>
+              Details
+            </p>
+          </div>
+          <div class="modal-footer">
+            <div type="button" class="btn btn-secondary d-grid col-4 mx-auto" data-bs-dismiss="modal">Want More!</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h3 class="p-5 text-center" style="font-family:'Courier New', Courier, monospace">To Know More About My Story!</h3>
+    <div class="container text-center">
+      <h5>Check out <a class="text-white" href="./myStory.html">My Blog</a>!</h5>
+    </div>
+
     
     <footer class="bg-dark text-center text-white">
       <div class="container p-4 pb-0">
