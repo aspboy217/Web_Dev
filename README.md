@@ -1,7 +1,8 @@
 # Welcome to YSL's Website Github!
-## This website is for personal project in Web Development
-## Please feel free to email me regarding web development or any questions!
+This website is for personal project in Web Development
+Please feel free to email me regarding web development or any questions!
 
+** For the best experience, I recommend to use PC instead of smartphones. **
 
 
 ## Welcome to GitHub Pages
